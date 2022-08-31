@@ -1,0 +1,35 @@
+.Movie-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 100vw;
+  justify-content: space-between;
+}
+
+.Movie-box {
+  height: 20vh;
+  width: 16vw;
+  border: 2px solid black;
+  background-color: red;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 3vw;
+}
+
+@media screen and (max-width: 1370px) {
+  .Movie-box {
+    width: 27vw;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .Movie-box {
+    width: 42vw;
+  }
+}
+
+.Movie-title {
+  height: auto;
+  font-size: calc(12px + 1vmin);
+  color: white;
+}

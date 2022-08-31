@@ -1,0 +1,17 @@
+.Header-bar {
+  display: flex;
+  align-items: center;
+  background-color: #010911;
+  height: 10vh;
+  width: auto;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.Header-title {
+  font-size: calc(8px + 3vmin);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: Gill Sans, fantasy;
+}

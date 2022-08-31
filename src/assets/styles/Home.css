@@ -1,0 +1,40 @@
+.Home-container {
+  max-width: 100vw;
+  display: flex;
+}
+
+.Home-content {
+  min-height: 100vh;
+  background-color: #071728;
+  padding-top: 8vh;
+  padding-bottom: 6vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-more-btn {
+  height: 50px;
+  width: 175px;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  border-radius: 6px;
+}
+
+.Home-og {
+  background-color: #6b6e79;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
